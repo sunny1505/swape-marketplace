@@ -1,0 +1,158 @@
+.edit-listing-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f7f7f5;
+}
+
+.edit-listing-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.edit-listing-header {
+  margin-bottom: 30px;
+}
+
+.edit-listing-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+.edit-listing-header h1 {
+  margin: 0 0 10px;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.edit-listing-header p {
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.edit-listing-header small {
+  color: #888;
+}
+
+.edit-listing-form {
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 18px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  background: #fff;
+  font: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #222;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 13px 15px;
+  border-radius: 10px;
+  background: #eef8ef;
+  color: #26733a;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 13px 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-button {
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+}
+
+.secondary-button {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  .edit-listing-page {
+    padding: 25px 15px;
+  }
+
+  .edit-listing-header h1 {
+    font-size: 30px;
+  }
+
+  .edit-listing-form {
+    padding: 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full-width {
+    grid-column: auto;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .primary-button,
+  .secondary-button {
+    width: 100%;
+  }
+}

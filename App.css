@@ -1,0 +1,12 @@
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.page {
+  min-height: 70vh;
+}

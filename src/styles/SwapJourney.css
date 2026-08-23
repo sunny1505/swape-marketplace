@@ -1,0 +1,555 @@
+/* =========================================================
+   SWAPÉ JOURNEY
+   Premium / Luxury Editorial Section
+========================================================= */
+
+.swap-journey-section {
+  width: 100%;
+  padding: 70px 40px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.swap-journey-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.swap-journey-header {
+  margin-bottom: 70px;
+}
+
+.swap-journey-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 24px;
+
+  color: #276242;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 0.18em;
+}
+
+.swap-journey-eyebrow span {
+  width: 32px;
+  height: 1px;
+
+  background: #276242;
+}
+
+.swap-journey-heading-row {
+  display: grid;
+
+  grid-template-columns: 1.15fr 0.85fr;
+
+  gap: 70px;
+
+  align-items: end;
+}
+
+.swap-journey-heading-row h2 {
+  margin: 0;
+  color: #173b29;
+  font-size: 58px;
+  line-height: 0.99;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+.swap-journey-heading-row h2 em {
+  color: #276242;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+}
+
+.swap-journey-heading-row p {
+  max-width: 520px;
+  margin: 0;
+  color: #69766e;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   STEPS
+========================================================= */
+
+.swap-journey-list {
+  width: 100%;
+
+  border-top: 1px solid rgba(39, 98, 66, 0.15);
+}
+
+
+/* =========================================================
+   STEP ITEM
+========================================================= */
+
+.swap-journey-item {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 80px 64px minmax(0, 1fr) 50px;
+
+  align-items: center;
+
+  gap: 30px;
+
+  min-height: 145px;
+
+  border-bottom: 1px solid rgba(39, 98, 66, 0.15);
+
+  transition:
+    padding 0.35s ease,
+    background 0.35s ease;
+}
+
+.swap-journey-item:hover {
+  padding-left: 18px;
+
+  background: #f7f8f5;
+}
+
+
+/* =========================================================
+   NUMBER
+========================================================= */
+
+.swap-step-number {
+  color: #9aa69f;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.1em;
+}
+
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.swap-step-icon {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #276242;
+
+  background: #edf2ed;
+
+  border: 1px solid rgba(39, 98, 66, 0.13);
+
+  border-radius: 50%;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.swap-journey-item:hover .swap-step-icon {
+  color: #ffffff;
+
+  background: #276242;
+
+  transform: rotate(-5deg);
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.swap-step-content {
+  padding: 20px 0;
+}
+
+.swap-step-content h3 {
+  margin: 0 0 9px;
+
+  color: #193d2b;
+
+  font-size: 19px;
+
+  line-height: 1.3;
+
+  font-weight: 600;
+
+  letter-spacing: -0.01em;
+}
+
+.swap-step-content p {
+  max-width: 650px;
+
+  margin: 0;
+
+  color: #7b867f;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   ARROW
+========================================================= */
+
+.swap-step-arrow {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #276242;
+
+  border: 1px solid rgba(39, 98, 66, 0.16);
+
+  border-radius: 50%;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.swap-journey-item:hover .swap-step-arrow {
+  color: #ffffff;
+
+  background: #276242;
+
+  transform: translate(3px, -3px);
+}
+
+
+/* =========================================================
+   FOOTER CTA
+========================================================= */
+
+.swap-journey-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 40px;
+
+  margin-top: 80px;
+
+  padding: 42px 45px;
+
+  background: #e9eee8;
+
+  border: 1px solid rgba(39, 98, 66, 0.12);
+
+  border-radius: 4px;
+}
+
+.swap-journey-footer-text > span {
+  display: block;
+
+  margin-bottom: 12px;
+
+  color: #276242;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.17em;
+}
+
+.swap-journey-footer h3 {
+  margin: 0;
+
+  color: #173b29;
+
+  font-size: clamp(26px, 3vw, 40px);
+
+  line-height: 1.05;
+
+  font-weight: 500;
+
+  letter-spacing: -0.03em;
+}
+
+.swap-journey-footer h3 em {
+  color: #276242;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   CTA BUTTON
+========================================================= */
+
+.swap-journey-button {
+  flex-shrink: 0;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  padding: 7px 7px 7px 23px;
+
+  color: #ffffff;
+
+  background: #276242;
+
+  border-radius: 100px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.swap-journey-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 15px 35px rgba(39, 98, 66, 0.2);
+}
+
+.swap-button-icon {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #276242;
+
+  background: #f5f6f1;
+
+  border-radius: 50%;
+
+  transition: transform 0.3s ease;
+}
+
+.swap-journey-button:hover .swap-button-icon {
+  transform: translate(2px, -2px);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .swap-journey-section {
+    padding: 90px 30px;
+  }
+
+  .swap-journey-heading-row {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .swap-journey-header {
+    margin-bottom: 55px;
+  }
+
+  .swap-journey-item {
+    grid-template-columns: 60px 58px minmax(0, 1fr) 45px;
+
+    gap: 20px;
+  }
+
+  .swap-journey-footer {
+    padding: 35px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .swap-journey-section {
+    padding: 70px 20px;
+  }
+
+  .swap-journey-eyebrow {
+    margin-bottom: 20px;
+
+    font-size: 10px;
+
+    letter-spacing: 0.15em;
+  }
+
+  .swap-journey-eyebrow span {
+    width: 22px;
+  }
+
+  .swap-journey-heading-row {
+    gap: 22px;
+  }
+
+  .swap-journey-heading-row h2 {
+    font-size: clamp(38px, 11vw, 54px);
+
+    line-height: 1.02;
+  }
+
+  .swap-journey-heading-row p {
+    font-size: 15px;
+
+    line-height: 1.7;
+  }
+
+  .swap-journey-header {
+    margin-bottom: 45px;
+  }
+
+
+  /* Steps */
+
+  .swap-journey-item {
+    grid-template-columns: 40px 48px minmax(0, 1fr);
+
+    gap: 15px;
+
+    min-height: 135px;
+  }
+
+  .swap-journey-item:hover {
+    padding-left: 8px;
+  }
+
+  .swap-step-number {
+    font-size: 10px;
+  }
+
+  .swap-step-icon {
+    width: 46px;
+    height: 46px;
+  }
+
+  .swap-step-content {
+    padding: 24px 0;
+  }
+
+  .swap-step-content h3 {
+    font-size: 16px;
+
+    margin-bottom: 7px;
+  }
+
+  .swap-step-content p {
+    font-size: 13px;
+
+    line-height: 1.6;
+  }
+
+  .swap-step-arrow {
+    display: none;
+  }
+
+
+  /* Footer */
+
+  .swap-journey-footer {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 28px;
+
+    margin-top: 55px;
+
+    padding: 30px 24px;
+  }
+
+  .swap-journey-footer h3 {
+    font-size: 31px;
+
+    line-height: 1.08;
+  }
+
+  .swap-journey-button {
+    width: 100%;
+
+    justify-content: space-between;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .swap-journey-section {
+    padding: 60px 16px;
+  }
+
+  .swap-journey-heading-row h2 {
+    font-size: 38px;
+  }
+
+  .swap-journey-item {
+    grid-template-columns: 30px 44px minmax(0, 1fr);
+
+    gap: 10px;
+  }
+
+  .swap-step-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .swap-step-content h3 {
+    font-size: 15px;
+  }
+
+  .swap-step-content p {
+    font-size: 12px;
+  }
+
+  .swap-journey-footer {
+    padding: 26px 20px;
+  }
+
+  .swap-journey-footer h3 {
+    font-size: 28px;
+  }
+}
